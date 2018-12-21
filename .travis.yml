@@ -4,7 +4,6 @@ node_js :
 before_script:
   - sleep 15
 install:
-  - cd server
   - npm install
 script:
   - npm test
